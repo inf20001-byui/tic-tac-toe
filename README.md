@@ -6,7 +6,7 @@ It is a game of tic-tac-toe for two players where each player takes turns
 placing their mark on the gameboard.  You win by putting three of your game 
 pieces in a row, column, or diagonal.
 
-The main game code is located in tic-tac-toe/main.rs
+The main game code is located in src/main.rs
 The Cargo.toml file contains dependencies needed for the game to execute
 * To run the game you need to perform "cargo build" and "cargo run" in the tic-tac-toe directory.
 
@@ -15,7 +15,9 @@ The Cargo.toml file contains dependencies needed for the game to execute
 # Development Environment
 
 - Viusal Studio Code
-- Rust 1.67.1 via the [Rustup Installer](https://rustup.rs/)
+- [Rustup Installer](https://rustup.rs/)
+    - Rust 1.67.1
+    - Cargo 0.1.0
 - Rust-Analyzer VS extension
 - CodeLLDB VS extension
 - Crates v0.5.1 extension
@@ -29,6 +31,7 @@ The Cargo.toml file contains dependencies needed for the game to execute
 - [Rust in Visual Studio Code](https://code.visualstudio.com/docs/languages/rust)
 - [Rust.org Library](https://www.rust-lang.org/learn)
 - [Geeks for Geeks - How to setup Rust in VSCode](https://www.geeksforgeeks.org/how-to-setup-rust-in-vscode/)
+- [The Cargo Book - a rust compiler](https://doc.rust-lang.org/stable/cargo/)
 
 # Future Work
 
