@@ -96,7 +96,7 @@ fn read_user_input() -> u8 {
             .read_line(&mut ans) // Store user input in ans
             .expect("Failed to read input"); // If there is an error, print "Failed to read input"
 
-        let ans: i16 = match ans.trim().parse() { // Convert ans to i16
+        let ans: i16 = match ans.trim().parse() { // Convert ans to i16, trims and spaces and verifies it is an integer
             Ok(n) => n,  // If ans is a number, store it in n
             Err(_) => { // If ans is not a number ask for a new input
                 println!("{}", "Please enter a spot from 1 to 9".purple());
