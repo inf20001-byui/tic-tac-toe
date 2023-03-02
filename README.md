@@ -31,7 +31,7 @@ The Cargo.toml file contains dependencies needed for the game to execute
 - [Rust in Visual Studio Code](https://code.visualstudio.com/docs/languages/rust)
 - [Rust.org Library](https://www.rust-lang.org/learn)
 - [Geeks for Geeks - How to setup Rust in VSCode](https://www.geeksforgeeks.org/how-to-setup-rust-in-vscode/)
-- [The Cargo Book - a rust compiler](https://doc.rust-lang.org/stable/cargo/)
+- [The Cargo Book - a rust compiler & package manager](https://doc.rust-lang.org/stable/cargo/)
 
 # Future Work
 
