@@ -10,7 +10,7 @@ The main game code is located in src/main.rs
 The Cargo.toml file contains dependencies needed for the game to execute
 * To run the game you need to perform "cargo build" and "cargo run" in the tic-tac-toe directory.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/3fcmnUj4Obw)
 
 # Development Environment
 
